@@ -57,3 +57,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+
+jekyll_admin:
+  hidden_links:
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
