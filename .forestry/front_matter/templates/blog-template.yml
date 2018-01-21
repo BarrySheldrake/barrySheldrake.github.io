@@ -1,4 +1,6 @@
 ---
+pages:
+- _posts/blog/testing-this.md
 hide_body: false
 fields:
 - name: layout
