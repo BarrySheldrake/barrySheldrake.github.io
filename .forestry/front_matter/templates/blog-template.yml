@@ -1,13 +1,11 @@
 ---
-pages:
-- _posts/testing-this.md
 hide_body: false
 fields:
 - name: layout
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: post
 - name: title
   label: Title
   type: text
