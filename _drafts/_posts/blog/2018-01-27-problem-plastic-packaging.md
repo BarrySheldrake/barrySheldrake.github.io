@@ -2,7 +2,7 @@
 title: Packaging Alternatives
 layout: post
 date: 2018-01-27 19:46:58 +0000
-modified: Invalid date
+modified: 2018-01-27 00:00:00 +0000
 categories:
 - blog
 tags: []
