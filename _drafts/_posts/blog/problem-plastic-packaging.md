@@ -2,7 +2,7 @@
 title: Week 4 - Packaging Alternatives
 layout: post
 date: 2018-01-27 00:00:00 +0000
-modified: ''
+modified: Invalid date
 categories: []
 tags: []
 image:
