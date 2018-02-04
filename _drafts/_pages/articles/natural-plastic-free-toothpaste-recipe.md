@@ -2,7 +2,7 @@
 title: Natural, plastic-free toothpaste recipe
 layout: post
 date: 2018-02-04 17:23:00 +0000
-modified: ''
+modified: 2018-02-04 17:23:00 +0000
 categories: []
 tags: []
 image:
