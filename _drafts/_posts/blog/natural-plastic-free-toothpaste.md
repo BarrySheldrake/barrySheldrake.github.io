@@ -1,7 +1,7 @@
 ---
 title: Natural, Plastic-free Toothpaste
 layout: post
-date: 2018-02-04 00:00:00 +0000
+date: 2018-02-04 17:04:49 +0000
 modified: ''
 categories: []
 tags: []
