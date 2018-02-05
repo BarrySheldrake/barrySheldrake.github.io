@@ -1,18 +1,22 @@
 ---
-title: Natural, plastic-free toothpaste recipe
 layout: post
-date: 2018-02-04 17:23:00 +0000
+title: "Natural, plastic-free toothpaste recipe"
+excerpt: "A guide to making your own toothpaste."
+categories: articles
+tags: [toothpaste]
+author: Eleanor_Sheldrake
+comments: true
+share: true
 modified: 2018-02-04 17:23:00 +0000
-categories: []
-tags: []
 image:
-  feature: ''
-  credit: ''
-  creditlink: ''
+  path: uploads/2018/02/04/20180204_161334.jpg
+  feature: uploads/2018/02/04/20180204_161334.jpg
+  credit:
+  creditlink:
 ---
 **Natural, Plastic-free, Toothpaste recipe:**
 
-  
+
 ![](/uploads/2018/02/04/20180204_161334.jpg)
 
 Mix together 2 tbsp of coconut oil, 2 tbsp baking powder, 1 tsp turmeric (optional), ½ tsp salt and 2 ground cloves. Add a few drops of water to help mix the ingredients and improve the texture. If it is too coarse, you might to run it through a food processor first.  How does it taste? I think savoury toothpaste may take some getting used to! I think next time I will try a more traditional, minty version!
