@@ -10,6 +10,14 @@
 
   
     ,{
+      "title"			: "Natural, plastic-free toothpaste recipe",
+      "link"			: "http://www.myunplasticlife.co.uk/articles/natural-plastic-free-toothpaste-recipe/",
+      "excerpt"		: "A guide to making your own toothpaste."
+    }
+  
+
+  
+    ,{
       "title"			: "Packaging Alternatives",
       "link"			: "http://www.myunplasticlife.co.uk/blog/problem-plastic-packaging/",
       "excerpt"		: "Week 4 - Packaging Alternatives"
@@ -47,6 +55,8 @@
   
 
   
+
+  
     ,{
       "title"			: "About me and my unplastic life",
       "link"			: "http://www.myunplasticlife.co.uk/about/",
@@ -60,16 +70,6 @@
 
   
 
-  
-
-  
-
-  
-    ,{
-      "title"			: "Natural, plastic-free toothpaste recipe",
-      "link"			: "http://www.myunplasticlife.co.uk/articles/natural-plastic-free-toothpaste-recipe/",
-      "excerpt"		: ""
-    }
   
 
   
