@@ -5,7 +5,8 @@ date: 2018-02-12 00:00:00 +0000
 modified: 2018-02-12 00:00:00 +0000
 categories:
 - Articles
-tags: []
+tags:
+- massage candle
 image:
   feature: ''
   credit: ''
