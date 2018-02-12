@@ -3,14 +3,10 @@ title: My Plastic-free Valentine
 layout: post
 date: 2018-02-11 14:12:00 +0000
 modified: 2018-02-11 12:00:00 +0000
-categories:
-- blog
-tags:
-- Valentines
+categories: blog
+tags: []
 image:
-  feature: ''
-  credit: Max Pixel
-  creditlink: http://maxpixel.freegreatpicture.com/static/photo/1x/Valentines-Day-Heart-Feelings-Romance-Love-2396408.jpg
+  feature:
 ---
 Week 6 - My Plastic-free Valentine
 
