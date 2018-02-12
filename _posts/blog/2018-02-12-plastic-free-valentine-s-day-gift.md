@@ -3,8 +3,10 @@ title: My Plastic-free Valentine
 layout: post
 date: 2018-02-11 14:12:00 +0000
 modified: 2018-02-11 12:00:00 +0000
-categories: []
-tags: []
+categories:
+- blog
+tags:
+- Valentines
 image:
   feature: ''
   credit: Max Pixel
@@ -14,7 +16,7 @@ Week 6 - My Plastic-free Valentine
 
 ![Hearts hanging in a tree](/uploads/2018/02/12/Valentinesday-1.jpeg "Hearts in Tree")
 
-Valentine's Day can be a bit of a minefield for plastic packaging. Traditional gifts, like bunches of flowers and boxes of chocolates tend to be covered in plastic making it difficult to find an alternative. So here is your guide to a totally plastic-free day your loved one will remember!
+Valentine's Day can be a bit of a minefield for plastic packaging. Traditional gifts, like bunches of flowers and boxes of chocolates, tend to be covered in plastic making it difficult to find an alternative. So here is your guide to a totally plastic-free day your loved one will remember!
 
  1. Treat your loved one to a romantic, candle-lit massage using a home-made massage candle. Sounds complicated? It's really easy - [see my articles](http://www.myunplasticlife.co.uk/articles/) for how to make your own!
  2. Get crafty - most cards seem to come wrapped in plastic, so to avoid this make your own! There are loads of ideas on pinterest if you need some inspiration.
