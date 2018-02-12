@@ -16,7 +16,7 @@ Week 6 - Plastic-free Valentine's Day
 
 Valentine's Day can be a bit of a minefield for plastic packaging. Traditional gifts, like bunches of flowers and boxes of chocolates tend to be covered in plastic making it difficult to find an alternative. So here is your guide to a totally plastic-free day your loved one will remember!
 
- 1. Treat your loved one to a romantic, candle-lit massage using a home-made massage candle. Sounds complicated? It's really easy - see my articles for how to make your own!
+ 1. Treat your loved one to a romantic, candle-lit massage using a home-made massage candle. Sounds complicated? It's really easy - [see my articles](http://www.myunplasticlife.co.uk/articles/) for how to make your own!
  2. Get crafty - most cards seem to come wrapped in plastic, so to avoid this make your own! There are loads of ideas on pinterest if you need some inspiration.
  3. Go on a romantic walk - the [National Trust](https://www.nationaltrust.org.uk/lists/top-spots-for-a-sprinkle-of-romance "National Trust Romantic walks") has a great list of the top romantic walks in the UK
  4. Write some romantic IOU vouchers - or [Glitter and Spice](https://glitternspice.com/romantic-and-naughty-printable-love-coupons/ "Glitter and Spice ") have printable ones to save you time.
