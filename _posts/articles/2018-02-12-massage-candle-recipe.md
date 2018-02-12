@@ -8,6 +8,7 @@ categories:
 tags:
 - massage candle
 image:
+  path: /uploads/2018/02/12/Finishedcandle.jpg
   feature: ''
   credit: ''
   creditlink: ''
@@ -55,5 +56,3 @@ I got all my ingredients from [The Soap Kitchen](https://www.thesoapkitchen.co.u
 8\. Light the wick and when you have some melted oil, pour it into your hand. You can now use it as a regular massage oil with the added benefit that it is already warm.
 
 ![](/uploads/2018/02/12/litcandlejar1.jpeg)
-
-![](/uploads/2018/02/12/Finishedcandle.jpg)

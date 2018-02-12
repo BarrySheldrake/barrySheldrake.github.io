@@ -6,9 +6,9 @@ modified: 2018-02-04 17:04:00 +0000
 categories: blog
 tags: []
 image:
-  feature: ''
-  credit: ''
-  creditlink: ''
+  feature:
+  credit:
+  creditlink:
 ---
 **Week 5 - Natural, Plastic-free Toothpaste**
 

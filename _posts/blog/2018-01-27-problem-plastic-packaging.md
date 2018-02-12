@@ -7,9 +7,9 @@ categories:
 - blog
 tags: []
 image:
-  feature: ''
-  credit: ''
-  creditlink: ''
+  feature:
+  credit:
+  creditlink:
 ---
 Week 4 - Packaging Alternatives
 
