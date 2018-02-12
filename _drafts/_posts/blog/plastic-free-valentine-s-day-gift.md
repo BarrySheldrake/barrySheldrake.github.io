@@ -7,10 +7,12 @@ categories: []
 tags: []
 image:
   feature: ''
-  credit: ''
-  creditlink: ''
+  credit: Max Pixel
+  creditlink: https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwifr5Ti0aDZAhXKyKQKHWtFCzQQjhwIBQ&url=http%3A%2F%2Fmaxpixel.freegreatpicture.com%2FValentines-Day-Heart-Feelings-Romance-Love-2396408&psig=AOvVaw3oSIU8h-cwUduKjwvxAKdP&ust=1518533898638409
 ---
 Plastic-free Valentine's Day
+
+![](/uploads/2018/02/12/Valentinesday-1.jpeg)
 
 Valentine's Day can be a bit of a minefield for plastic packaging. Traditional gifts, like bunches of flowers and boxes of chocolates tend to be covered in plastic making it difficult to find an alternative. So here is your guide to a totally plastic-free day your loved one will remember!
 
