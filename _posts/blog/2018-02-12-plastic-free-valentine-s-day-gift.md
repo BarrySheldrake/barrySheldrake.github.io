@@ -3,14 +3,14 @@ title: Plastic-free Valentine's Day
 layout: post
 date: 2018-02-11 14:12:00 +0000
 modified: 2018-02-11 12:00:00 +0000
-categories: []
+categories: blog
 tags: []
 image:
-  feature: ''
+  feature: /uploads/2018/02/12/Valentinesday-1.jpeg "Hearts in Tree
   credit: Max Pixel
   creditlink: http://maxpixel.freegreatpicture.com/static/photo/1x/Valentines-Day-Heart-Feelings-Romance-Love-2396408.jpg
 ---
-Week 6 - Plastic-free Valentine's Day
+**Week 6 - Plastic-free Valentine's Day**
 
 ![Hearts hanging in a tree](/uploads/2018/02/12/Valentinesday-1.jpeg "Hearts in Tree")
 

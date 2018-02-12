@@ -1,16 +1,18 @@
 ---
-title: Massage Candle Recipe
 layout: post
-date: 2018-02-12 00:00:00 +0000
-modified: 2018-02-12 00:00:00 +0000
-categories:
-- Articles
-tags:
-- massage candle
+title: "Massage Candle Recipe"
+excerpt: "A gorgeous candle which is also a lush moisturiser!"
+categories: articles
+tags: [massage candle]
+author: Eleanor_Sheldrake
+comments: true
+share: true
+modified: 2018-02-12 12:00:00 +0000
 image:
-  feature: ''
-  credit: ''
-  creditlink: ''
+  path: uploads/2018/02/12/Valentinesday-1.jpeg
+  feature: uploads/2018/02/12/Valentinesday-1.jpeg
+  credit:
+  creditlink:
 ---
 **Massage Candle Recipe**
 
@@ -24,7 +26,7 @@ Such a simple concept, and so easy to make! Completely plastic-free and you'll s
 * 1 oz cocoa or shea butter
 * 1oz sweet almond or jojoba oil
 * 10-20 drops of essential oil
-* A jar or tin 
+* A jar or tin
 * Pre-waxed wick
 * Double boiler - I used a saucepan and a ceramic bowl
 * Knife
@@ -39,16 +41,16 @@ I got all my ingredients from [The Soap Kitchen](https://www.thesoapkitchen.co.u
 ![](/uploads/2018/02/12/Wick in jar.jpg)
 
 2. Cut your wax and butter into small pieces so they melt quickly and evenly.
-3. Put your saucepan on the hob with a small amount of water in the bottom. Bring to a simmer and then place your ceramic bowl on top. 
+3. Put your saucepan on the hob with a small amount of water in the bottom. Bring to a simmer and then place your ceramic bowl on top.
 4. Over a medium heat gently stir the wax, butter and almond oil until melted - this will take 2-5 minutes. Don't over heat the mixture or create too many bubbles when you're mixing.
 
-![](/uploads/2018/02/12/Bowl on hob.jpg)5. Take the bowl off the heat and pour in your essential oils and give another stir.
+![](/uploads/2018/02/12/Bowl_on_hob.jpg)5. Take the bowl off the heat and pour in your essential oils and give another stir.
 
 6. Pour the mixture into your jar and leave to cool.
 
 ![](/uploads/2018/02/12/Pour mixture in jar.jpg)
 
 2. Once solid it is ready to use - just cut the wick from the chop stick and you are ready to go!
-3. Light the wick and when you have some melted oil, pour it into your hand. You can now use it as a regular massage oil with the added benefit that it is already warm. 
+3. Light the wick and when you have some melted oil, pour it into your hand. You can now use it as a regular massage oil with the added benefit that it is already warm.
 
 ![](/uploads/2018/02/12/Finished candle.jpg)
