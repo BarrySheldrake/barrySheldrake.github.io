@@ -44,16 +44,18 @@ I got all my ingredients from [The Soap Kitchen](https://www.thesoapkitchen.co.u
 
 3\. Put your saucepan on the hob with a small amount of water in the bottom. Bring to a simmer and then place your ceramic bowl on top.
 
-4. Over a medium heat gently stir the wax, butter and almond oil until melted - this will take 2-5 minutes. Don't over heat the mixture or create too many bubbles when you're mixing.
+1. Over a medium heat gently stir the wax, butter and almond oil until melted - this will take 2-5 minutes. Don't over heat the mixture or create too many bubbles when you're mixing.
 
 ![](/uploads/2018/02/12/Bowl on hob.jpg)5. Take the bowl off the heat and pour in your essential oils and give another stir.
 
-6. Pour the mixture into your jar and leave to cool.
+1. Pour the mixture into your jar and leave to cool.
 
 ![](/uploads/2018/02/12/Pour mixture in jar.jpg)7. Once solid it is ready to use - just cut the wick from the chop stick and you are ready to go!
 
-8. Light the wick and when you have some melted oil, pour it into your hand. You can now use it as a regular massage oil with the added benefit that it is already warm.
+1. Light the wick and when you have some melted oil, pour it into your hand. You can now use it as a regular massage oil with the added benefit that it is already warm.
 
 ![](/uploads/2018/02/12/Finished candle.jpg)
+
+![](/uploads/2018/02/12/Litcandlejar.jpg)
 
 ![](/uploads/2018/02/12/Finishedcandle.jpg)
