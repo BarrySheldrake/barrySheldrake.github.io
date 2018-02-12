@@ -3,15 +3,13 @@ title: Massage Candle Recipe
 layout: post
 date: 2018-02-12 00:00:00 +0000
 modified: 2018-02-12 00:00:00 +0000
-categories:
-- Articles
+categories: articles
 tags:
-- massage candle
 image:
   path: /uploads/2018/02/12/Finishedcandle.jpg
-  feature: ''
-  credit: ''
-  creditlink: ''
+  feature: /uploads/2018/02/12/Finishedcandle.jpg
+  credit:
+  creditlink:
 excerpt: A gorgeous candle which is also a lush moisturiser!
 author: Eleanor_Sheldrake
 comments: true
