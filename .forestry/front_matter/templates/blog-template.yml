@@ -1,11 +1,7 @@
 ---
-pages:
-- _posts/blog/2018-02-25-a-toxic-ticking-timebomb.md
-- _posts/blog/2018-02-17-plastic-free-family.md
-- _posts/blog/2018-01-27-problem-plastic-packaging.md
-- _posts/articles/2018-02-12-massage-candle-recipe.md
-- _posts/blog/2018-02-04-natural-plastic-free-toothpaste.md
+label: Blog Template
 hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
@@ -58,3 +54,9 @@ fields:
   type: datetime
   hidden: false
   default: ''
+pages:
+- _posts/blog/2018-02-25-a-toxic-ticking-timebomb.md
+- _posts/articles/2018-02-12-massage-candle-recipe.md
+- _posts/blog/2018-02-17-plastic-free-family.md
+- _posts/blog/2018-01-27-problem-plastic-packaging.md
+- _posts/blog/2018-02-04-natural-plastic-free-toothpaste.md
