@@ -18,21 +18,42 @@
         }
 
         body {
-            background-color: #7d6852; /* Set the desired background color */
+            /* Background image styles */
+            /* IMPORTANT: The URL below is a placeholder for the preview to work. */
+            /* When you publish your site, replace this URL with your image file name: url('IMG_3275.JPG') */
+            background-image: url('IMG_3275.JPG');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Keeps the background static on scroll */
+            
             display: flex; /* Enable flexbox */
             flex-direction: column; /* Stack children vertically */
             justify-content: center; /* Center content vertically */
             align-items: center; /* Center content horizontally */
-            text-align: center; /* Fallback for text alignment, also helps with inline-block centering */
+            text-align: center; /* Fallback for text alignment */
             padding: 20px; /* Add some padding for smaller screens */
             box-sizing: border-box; /* Include padding in width/height calculations */
-            position: relative; /* Needed for fixed positioning of decoration */
+            position: relative; /* Needed for the overlay pseudo-element */
+            z-index: 0;
+        }
+
+        /* Artistic overlay to ensure text readability */
+        body::before {
+            content: '';
+            position: fixed; /* Covers the entire viewport */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(125, 104, 82, 0.7); /* The original background color, but semi-transparent */
+            z-index: -1; /* Sits behind the content but over the background image */
         }
 
         .main-content {
             /* Container for the main heading */
             margin-bottom: 40px; /* Increased space between heading and contact info */
-            z-index: 1; /* Ensure text is above decoration if they overlap */
+            z-index: 1; /* Ensure text is above overlay */
         }
 
         h1 {
@@ -41,6 +62,7 @@
             font-weight: 700; /* Bolder text */
             line-height: 1.2; /* Adjust line height for better readability if text wraps */
             margin: 0; /* Remove default margin from h1 */
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5); /* Add a subtle shadow for better readability */
         }
 
         .contact-info {
@@ -49,7 +71,7 @@
             font-size: 1.1rem; /* Slightly smaller font for contact details */
             font-weight: 400;
             display: inline-block; /* Allows the block to be centered based on its content width */
-            z-index: 1; /* Ensure contact info is above decoration if they overlap */
+            z-index: 1; /* Ensure contact info is above overlay */
         }
 
         .contact-item {
@@ -77,26 +99,6 @@
             text-decoration: underline; /* Add underline on hover for better UX */
         }
 
-        .wheat-decoration { /* Renamed from corn-decoration for clarity */
-            position: fixed; /* Positioned relative to the viewport */
-            bottom: 20px;    /* Distance from the bottom */
-            left: 20px;      /* Distance from the left */
-            width: 120px;    /* Adjust size of the decoration as needed, increased slightly for new design */
-            height: auto;    /* Maintain aspect ratio */
-            z-index: 0;      /* Keep it in the background, behind text content */
-        }
-
-        .wheat-decoration svg {
-            width: 100%;
-            height: auto;
-            stroke: white; /* Outline color */
-            stroke-width: 1.5; /* Outline thickness */
-            fill: none; /* No fill for an outline look */
-            stroke-linecap: round; /* Smoother line ends */
-            stroke-linejoin: round; /* Smoother line joins */
-        }
-
-
         /* Responsive font size adjustments */
         @media (max-width: 768px) {
             h1 {
@@ -108,11 +110,6 @@
             .contact-item svg.contact-icon {
                 width: 22px;
                 height: 22px;
-            }
-            .wheat-decoration {
-                width: 100px; /* Slightly smaller decoration for tablets */
-                bottom: 15px;
-                left: 15px;
             }
         }
 
@@ -129,11 +126,6 @@
             }
             .main-content {
                 margin-bottom: 30px;
-            }
-            .wheat-decoration {
-                width: 80px; /* Smaller decoration for mobile */
-                bottom: 10px;
-                left: 10px;
             }
         }
     </style>
