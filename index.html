@@ -13,14 +13,12 @@
             height: 100%; /* Ensure the body takes up the full viewport height */
             width: 100%;  /* Ensure the body takes up the full viewport width */
             overflow-x: hidden; /* Prevent horizontal scrollbars */
-            overflow-y: auto; /* Allow vertical scroll if content exceeds viewport */
             font-family: 'Inter', sans-serif; /* Apply a clean, modern font */
         }
 
         body {
             /* Background image styles */
-            /* IMPORTANT: The URL below is a placeholder for the preview to work. */
-            /* When you publish your site, replace this URL with your image file name: url('IMG_3275.JPG') */
+            /* IMPORTANT: The URL below is a placeholder. When you publish your site, replace this URL with your image file name: url('IMG_3275.JPG') */
             background-image: url('IMG_3275.JPG');
             background-size: cover;
             background-position: center center;
@@ -28,81 +26,79 @@
             background-attachment: fixed; /* Keeps the background static on scroll */
             
             display: flex; /* Enable flexbox */
-            flex-direction: column; /* Stack children vertically */
             justify-content: center; /* Center content vertically */
             align-items: center; /* Center content horizontally */
             text-align: center; /* Fallback for text alignment */
             padding: 20px; /* Add some padding for smaller screens */
             box-sizing: border-box; /* Include padding in width/height calculations */
-            position: relative; /* Needed for the overlay pseudo-element */
-            z-index: 0;
         }
 
-        /* Artistic overlay to ensure text readability */
-        body::before {
-            content: '';
-            position: fixed; /* Covers the entire viewport */
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(125, 104, 82, 0.7); /* The original background color, but semi-transparent */
-            z-index: -1; /* Sits behind the content but over the background image */
+        /* This container creates the semi-transparent band behind the text */
+        .text-container {
+            background-color: rgba(125, 104, 82, 0.75); /* The semi-transparent background */
+            padding: 2rem 3rem; /* Padding inside the band */
+            border-radius: 15px; /* Rounded corners for a softer look */
+            max-width: 800px; /* Prevents the band from being too wide on large screens */
+            width: 90%; /* Responsive width */
+            box-shadow: 0 4px 20px rgba(0,0,0,0.25); /* A subtle shadow to lift the band off the page */
         }
 
         .main-content {
             /* Container for the main heading */
-            margin-bottom: 40px; /* Increased space between heading and contact info */
-            z-index: 1; /* Ensure text is above overlay */
+            margin-bottom: 40px; /* Space between heading and contact info */
         }
 
         h1 {
             color: white; /* Set the text color to white */
-            font-size: 4rem; /* Reasonably large font size - adjust as needed */
+            font-size: 4rem; /* Reasonably large font size */
             font-weight: 700; /* Bolder text */
-            line-height: 1.2; /* Adjust line height for better readability if text wraps */
-            margin: 0; /* Remove default margin from h1 */
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.5); /* Add a subtle shadow for better readability */
+            line-height: 1.2;
+            margin: 0; /* Remove default margin */
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.3); /* Softer text shadow */
         }
 
         .contact-info {
             /* Container for contact details */
-            color: white; /* Text color for contact info */
-            font-size: 1.1rem; /* Slightly smaller font for contact details */
+            color: white;
+            font-size: 1.1rem;
             font-weight: 400;
-            display: inline-block; /* Allows the block to be centered based on its content width */
-            z-index: 1; /* Ensure contact info is above overlay */
+            display: inline-block; /* Aligns contact items correctly */
         }
 
         .contact-item {
             display: flex; /* Align icon and text horizontally */
-            align-items: center; /* Vertically center icon and text within the line */
-            justify-content: flex-start; /* Align icon and text to the start (left) of the line */
+            align-items: center; /* Vertically center icon and text */
+            justify-content: flex-start; /* Align content to the left within the band */
             margin-bottom: 15px; /* Space between contact items */
         }
+        
+        /* Remove margin from the last contact item */
+        .contact-item:last-child {
+            margin-bottom: 0;
+        }
 
-        .contact-item svg.contact-icon { /* Specific class for contact icons */
-            width: 24px; /* Icon size */
-            height: 24px; /* Icon size */
-            fill: white; /* Icon color */
-            margin-right: 10px; /* Space between icon and text */
-            flex-shrink: 0; /* Prevent icon from shrinking if text is long */
+        .contact-item svg.contact-icon {
+            width: 24px;
+            height: 24px;
+            fill: white;
+            margin-right: 10px;
+            flex-shrink: 0;
         }
 
         .contact-info a {
-            color: white; /* Link color */
-            text-decoration: none; /* Remove underline from links */
-            font-size: 1.1rem; /* Ensure link text matches surrounding text */
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
         }
 
         .contact-info a:hover {
-            text-decoration: underline; /* Add underline on hover for better UX */
+            text-decoration: underline;
         }
 
-        /* Responsive font size adjustments */
+        /* Responsive adjustments */
         @media (max-width: 768px) {
             h1 {
-                font-size: 3rem; /* Smaller font size for tablets */
+                font-size: 3rem;
             }
             .contact-info, .contact-info a {
                 font-size: 1rem;
@@ -111,11 +107,14 @@
                 width: 22px;
                 height: 22px;
             }
+            .text-container {
+                padding: 1.5rem 2rem;
+            }
         }
 
         @media (max-width: 480px) {
             h1 {
-                font-size: 2.2rem; /* Even smaller font size for mobile phones */
+                font-size: 2.2rem;
             }
             .contact-info, .contact-info a {
                 font-size: 0.9rem;
@@ -127,26 +126,33 @@
             .main-content {
                 margin-bottom: 30px;
             }
+            .text-container {
+                padding: 1.5rem;
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
-   <div class="main-content">
-        <h1>Ancient Grain Bakery</h1>
-    </div>
-    <div class="contact-info">
-        <div class="contact-item">
-            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-            </svg>
-            <a href="mailto:Ellie@ancientgrainbakery.co.uk">Ellie@ancientgrainbakery.co.uk</a>
+   <!-- All text content is now inside this container to create the band effect -->
+   <div class="text-container">
+       <div class="main-content">
+            <h1>Ancient Grain Bakery</h1>
         </div>
-        <div class="contact-item">
-            <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8A3.6 3.6 0 0 0 20 16.4V7.6A3.6 3.6 0 0 0 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
-            </svg>
-            <a href="https://www.instagram.com/ancientgrainbakery/" target="_blank" rel="noopener noreferrer">@ancientgrainbakery</a>
+        <div class="contact-info">
+            <div class="contact-item">
+                <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                <a href="mailto:Ellie@ancientgrainbakery.co.uk">Ellie@ancientgrainbakery.co.uk</a>
             </div>
-    </div>
+            <div class="contact-item">
+                <svg class="contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8A3.6 3.6 0 0 0 20 16.4V7.6A3.6 3.6 0 0 0 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
+                </svg>
+                <a href="https://www.instagram.com/ancientgrainbakery/" target="_blank" rel="noopener noreferrer">@ancientgrainbakery</a>
+            </div>
+        </div>
+   </div>
 </body>
 </html>
